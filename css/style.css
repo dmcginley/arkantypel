@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: aliceblue;
+  /* color: rgb(24, 209, 0); */
+
+  background-color: rgb(46, 46, 46);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.text {
+  font-size: 1.2rem;
+  width: 70%;
+  max-width: 400px;
+  height: 160px;
+  /* background-color: rgb(101, 209, 173); */
+}
+
+.text span {
+  opacity: 0;
+}
+
+.text span.revealed {
+  opacity: 1;
+}
+
+.button-container {
+  padding: 3em 1em;
+}
+
+button {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0.4em 0;
+  padding: 0.6em 2em;
+  background-color: Transparent;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  border-radius: 100px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #eee23a;
+  border: 2px solid #eee23a;
+}
+
+@media only screen and (min-width: 540px) {
+  .text {
+    padding-bottom: 2em;
+  }
+  button {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .text {
+    font-size: 2rem;
+    width: 60%;
+    max-width: 600px;
+  }
+
+  button {
+    margin: 0.4em;
+  }
+}
