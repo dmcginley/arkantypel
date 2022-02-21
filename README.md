@@ -2,6 +2,10 @@
 
 test for a text based choose your own adventure game
 
+### Website link
+
+https://dmcginley.github.io/arkantypel/
+
 developer.mozilla
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
